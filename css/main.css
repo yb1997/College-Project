@@ -25,8 +25,9 @@ header h1 {
 }
 hr {
 	/*border-width: 2px;*/
-	border-color: #969696;
+	border-color: #fff/*#969696*/;
 	margin: 0;
+	margin-bottom: 10px;
 }
 
 /******************Navigation bar **************************/
@@ -57,6 +58,7 @@ hr {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 12rem 0 18rem 0;
+	border-top: 10px solid #fff;
 }
 .search-section h1 {
 	font-size: 8rem;
@@ -98,7 +100,6 @@ hr {
 }
 /**************************** Carousal *********************/
 .carousal, .slide {
-	margin-bottom: 20px;
 	max-height: 470px;
 }
 .carousal carousal-inner {
@@ -111,9 +112,28 @@ hr {
 
 
 /******************* Popular section **********************/
-.popular-section h1 {
-	text-transform: uppercase;
+.popular-section-heading {
+	background-color: #444;
+	padding: 0;
+	border-bottom: 5px solid white;
+	box-shadow: 0 2px 15px rgb(110, 110, 110);
 }
+.pop-sec-head-col {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+.popular-section-heading h1 {
+	text-transform: uppercase;
+	display: inline-block;
+	color: #fff;
+}
+.popular-section-heading .mid-line {
+	border: 2px solid #fff;
+	/*display: inline-block;*/
+	width: 100%;
+}
+
 .card {
 	background-color: #fff;
 	box-shadow: 0 1px 5px rgba(0,0,0,0.3);
