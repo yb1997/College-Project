@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	font-family: 'Open Sans',Arial;
+	margin: 0;
+	margin-bottom: 80px;
+	background-color: #dddddd;
+}
+
+/********************* Header ***********************/
+header h1 {
+	font-family: 'Baloo Bhaina';
+	color: #e75422;
+	font-size: 400%;
+	margin: 50px 0 0 0;
+	/*background-color: #333;*/
+}
+hr {
+	/*border-width: 2px;*/
+	border-color: #969696;
+	margin: 0;
+}
+
+/******************Navigation bar **************************/
+.navbar {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 1.5rem;
+	background-color: #fff;
+}
+.navbar-nav {
+	float: none;
+}
+
+.navbar .navbar-collapse,.collapse {
+    text-align: center;
+}
+.navbar a:hover {
+	height: 50px;
+	border-bottom: 3px solid orange;
+}
+
+
+/**********************search section *********************/
+.search-section {
+	background-image: url('../img/search-section-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 12rem 0 18rem 0;
+}
+.search-section h1 {
+	font-size: 8rem;
+	color: white;
+	margin: 0 0 1rem 0;
+	text-transform: uppercase;
+	font-family: 'Pathway Gothic One';
+	/*font-weight: bold;*/
+}
+.search-field {
+	width: 40%;
+	height: 5rem;
+	margin: auto;
+}
+.search-field i {
+	display: inline-block;
+	line-height: 5rem;
+	/*background-color: rgba(255,255,255,0.5);*/
+	background-color: white;
+	color: #444;
+	margin: 0;
+	/*padding: 0 5px;*/
+	width: 15%;
+}
+.search-field i:hover {
+	cursor: pointer;
+}
+.search-section input[type='search'] {
+	display: inline-block;
+	height: 100%;
+	border: none;
+	margin: 0;
+	background-color: rgba(255,255,255,0.5);
+	padding: 0 5px;
+	line-height: initial;
+	font-size: 2.5rem;
+	width: 85%;
+	outline: none;
+}
+/**************************** Carousal *********************/
+.carousal, .slide {
+	margin-bottom: 20px;
+	max-height: 470px;
+}
+.carousal carousal-inner {
+	/*max-width: 1366px;*/
+	max-height: 100%;
+}
+.carousal-inner .item {
+	max-height: 100%;
+}
+
+
+/******************* Popular section **********************/
+.popular-section h1 {
+	text-transform: uppercase;
+}
+.card {
+	background-color: #fff;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+	margin: auto;
+	margin-bottom: 25px;
+	width: 180px;
+	border-radius: 5px;
+	transition: all 0.2s ease-in-out;
+	/*height: 240px;*/
+}
+.card:hover {
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.6);
+}
+/*.card::after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+.card:hover::after {
+	opacity: 1;
+}*/
+.card img {
+	width: 100%;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+}
+.card .card-description-container {
+	padding: 5px;
+	background-color: inherit;
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+}
+.card h3 {
+	margin: 5px 0 10px 0;
+	font-weight: bold;
+}
+.card i {
+	position: relative;
+	left: 90%;
+}
+.card i:hover {
+	cursor: pointer;
+}
+/********************* Newsletter **************************/
+.newsletter {
+	padding: 10px;
+	background-color: #444;
+	background-image: url('https://unsplash.it/g/1920/300?random');
+	color: #fff;
+}
+.newsletter h2 {
+	font-weight: bold;
+	font-family: 'Fascinate Inline','Pathway Gothic One','Shrikhand';
+}
+.newsletter-main {
+	max-width: 500px;
+	margin: auto;
+}
+.newsletter-links {
+	max-width: 400px;
+}
+.newsletter-links i {
+	color: #fff;
+}
+
+
+/******************* Footer ********************/
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #333;
+	color: white;
+	height: 80px;
+}
+footer p {
+	line-height: 70px;
+	font-size: 150%;
+}
