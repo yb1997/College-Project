@@ -16,9 +16,13 @@ body {
 }
 
 /********************* Header ***********************/
+header {
+	background-color: #333;
+}
 header h1 {
-	font-family: 'Baloo Bhaina';
-	color: #e75422;
+	font-family: 'Baloo Bhaina',Arial, Helvetica, sans-serif;
+	/*color: #e75422;*/
+	color: #fff;
 	font-size: 400%;
 	margin: 50px 0 0 0;
 	/*background-color: #333;*/
@@ -50,7 +54,9 @@ hr {
 	height: 50px;
 	border-bottom: 3px solid orange;
 }
-
+.navbar-right {
+	display: inline-block;
+}
 
 /**********************search section *********************/
 .search-section {
