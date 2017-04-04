@@ -4,14 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Food Paradise | Home</title>
+
     <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="vendor/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   </head>
 
   <body>
 
-    <header class="text-center">
+<!--     <header class="text-center">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -22,31 +24,54 @@
       </div>
     </header>
 
-    <!-- <div class="container-fluid"> -->
-      <nav class="navbar navbar-default" role="navigation">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-main" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <ul class="nav navbar-left">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-main" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-main">
+          <div class="container">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Recipes</a></li>
+              <li><a href="#">Holidays and Events</a></li>
+              <li><a href="#">Tips and Tricks</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+            <ul class="nav navbar-right">
               <li><a href="#">Log in</a></li>
             </ul>
           </div>
-          <div class="collapse navbar-collapse" id="navbar-collapse-main">
-            <div class="container">
-              <ul class="nav navbar-nav">
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Holidays and Events</a></li>
-                <li><a href="#">Tips and Tricks</a></li>
-                <li><a href="#">About Us</a></li>
-              </ul>
-            </div>
-          </div>
-      </nav>
-    <!-- </div> -->
+        </div>
+    </nav> -->
+    <!-- Navigation Bar with header-->
+    <nav>
+      <header>
+        <i class="fa fa-bars fa-2x nav-toggle" aria-hidden="true"></i>
+        <span id="nav-brand">Food Paradise</span>
+        <div class="nav-menu-icon">
+          <i class="fa fa-ellipsis-v fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="nav-menu">
+          <ul>
+            <li>FAQ</li>
+            <li>About Us</li>
+          </ul>
+        </div>
+      </header>
+      <div id="side-navbar">
+        <i class="fa fa-times fa-2x nav-toggle" aria-hidden="true"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="holidaysEvents.html">Holidays and Events</a></li>
+          <li><a href="tipsTricks.html">Tips and Tricks</a></li> 
+        </ul>
+      </div>
+    </nav>
 
     <!-- Carousel
     ================================================== -->
@@ -64,7 +89,6 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>Golgappa</h1>
-                <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
               </div>
             </div>
@@ -74,7 +98,6 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>Ras Malaai</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
               </div>
             </div>
@@ -84,8 +107,7 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>Jalebi</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -107,7 +129,7 @@
     <div class="container-fluid text-center search-section">
       <h1>Find a Recipe</h1>
       <div class="search-field">
-        <input type="search" name="search-control"><i class="fa fa-search fa-2x" aria-hidden="true"></i>
+        <input type="search" name="search-control"><i class="fa fa-search fa-2x" aria-hidden="true"></i><!-- put icon inside submit button -->
       </div>
     </div>
 
@@ -253,5 +275,6 @@
     <script type="text/javascript" src="vendor/js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/home-js.js"></script>
+    <script type="text/javascript" src="js/nav-bar.js"></script>
   </body>
 </html>

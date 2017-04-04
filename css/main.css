@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
 @import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
-@import url('https://fonts.googleapis.com/css?family=Shrikhand');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html {
@@ -9,33 +7,31 @@ html {
 	min-height: 100%;
 }
 body {
-	font-family: 'Open Sans',Arial;
+	font-family: 'Open Sans',Arial,Helvetica,sans-serif;
 	margin: 0;
 	margin-bottom: 80px;
 	background-color: #dddddd;
+	margin-top: 60px;
 }
 
 /********************* Header ***********************/
-header {
+/*header {
 	background-color: #333;
 }
 header h1 {
 	font-family: 'Baloo Bhaina',Arial, Helvetica, sans-serif;
-	/*color: #e75422;*/
 	color: #fff;
 	font-size: 400%;
 	margin: 50px 0 0 0;
-	/*background-color: #333;*/
 }
 hr {
-	/*border-width: 2px;*/
-	border-color: #fff/*#969696*/;
+	border-color: #fff;
 	margin: 0;
 	margin-bottom: 10px;
-}
+}*/
 
 /******************Navigation bar **************************/
-.navbar {
+/*.navbar {
 	border-radius: 0;
 	border: none;
 	margin-bottom: 0;
@@ -56,7 +52,7 @@ hr {
 }
 .navbar-right {
 	display: inline-block;
-}
+}*/
 
 /**********************search section *********************/
 .search-section {
@@ -145,10 +141,10 @@ hr {
 	box-shadow: 0 1px 5px rgba(0,0,0,0.3);
 	margin: auto;
 	margin-bottom: 25px;
-	width: 180px;
+	width: 200px;
 	border-radius: 5px;
 	transition: all 0.2s ease-in-out;
-	/*height: 240px;*/
+	height: 240px;
 }
 .card:hover {
 	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.6);
@@ -189,6 +185,15 @@ hr {
 .card i:hover {
 	cursor: pointer;
 }
+
+@media only screen and (max-width: 768px){
+	.card {
+		width: 140px;
+		height: 168px;
+	}
+}
+
+
 /********************* Newsletter **************************/
 .newsletter {
 	padding: 10px;
@@ -198,7 +203,7 @@ hr {
 }
 .newsletter h2 {
 	font-weight: bold;
-	font-family: 'Fascinate Inline','Pathway Gothic One','Shrikhand';
+	font-family: 'Fascinate Inline','Pathway Gothic One',Arial;
 }
 .newsletter-main {
 	max-width: 500px;
