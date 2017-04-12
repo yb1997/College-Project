@@ -91,6 +91,10 @@
 }
 
 /**************************** Carousal *********************/
+.carousel-wrapper {
+	padding: 0;
+	margin: 0;
+}
 .carousal, .slide {
 	max-height: 470px;
 }
@@ -103,11 +107,22 @@
 }
 
 /******************* Popular section **********************/
+.card-container {
+	padding: 0;
+}
+.card-container > .row {
+	margin: 0;
+}
+.card-container .card-wrapper {
+	padding: 0 10px;
+}
+
 .popular-section-heading {
 	background-color: #444;
 	padding: 0;
 	border-bottom: 5px solid white;
 	box-shadow: 0 2px 15px rgb(110, 110, 110);
+	margin-bottom: 20px;
 }
 .pop-sec-head-col {
 	padding: 0;

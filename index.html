@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <title>Food Paradise | Home</title>
 
     <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
@@ -48,6 +48,7 @@
           </div>
         </div>
     </nav> -->
+
     <!-- Navigation Bar with header-->
     <nav>
       <header>
@@ -92,9 +93,9 @@
       </div>
     </div>
 
-    <!-- Carousel
+<!-- Carousel
     ================================================== -->
-    <div class="container-fluid">
+    <div class="container-fluid carousel-wrapper">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -146,63 +147,15 @@
 
 
 <!-- Popular Section -->
-<!-- TODO:use clearfix for proper rendering of cards after screen is resized -->
 
     <div class="popular-section-heading text-center">
       <h1>Popular Recipes</h1>
-      <!-- Fix it ! -->
-      <!-- <div class="col-xs-4 pop-sec-head-col"><div class="mid-line"></div></div> -->
-      <!-- <div class="col-xs-4 pop-sec-head-col"><h1>Popular Recipes</h1></div> -->
-      <!-- <div class="col-xs-4 pop-sec-head-col"><div class="mid-line"></div></div> -->
-    <!-- </div> -->
     </div>
-    <hr>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
-            <img src="https://unsplash.it/200/100" alt="Aaloo Chaat">
-            <div class="card-description-container">
-              <h3>Paani puri</h3>
-              <p>Author</p>
-              <i class="fa fa-bookmark-o" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
-            <img src="https://unsplash.it/200/100" alt="Paani puri">
-            <div class="card-description-container">
-              <h3>Paani puri</h3>
-              <p>Author</p>
-              <i class="fa fa-bookmark-o" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
-            <img src="https://unsplash.it/200/100" alt="Golgappa">
-            <div class="card-description-container">
-              <h3>Paani puri</h3>
-              <p>Author</p>
-              <i class="fa fa-bookmark-o" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
-            <img src="https://unsplash.it/200/100" alt="Golgappa">
-            <div class="card-description-container">
-              <h3>Paani puri</h3>
-              <p>Author</p>
-              <i class="fa fa-bookmark-o" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-      </div>
 
+    <div class="container card-container">
       <div class="row">
-        <div class="col-md-3 col-sm-4 col-xs-6">
+      
+        <div class="col-md-3 col-sm-4 col-xs-6 card-wrapper">
           <div class="card">
             <img src="https://unsplash.it/200/100" alt="Aaloo Chaat">
             <div class="card-description-container">
@@ -212,7 +165,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+
+        <div class="col-md-3 col-sm-4 col-xs-6 card-wrapper">
           <div class="card">
             <img src="https://unsplash.it/200/100" alt="Paani puri">
             <div class="card-description-container">
@@ -222,7 +176,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+
+        <div class="clearfix visible-xs-block"></div>
+
+        <div class="col-md-3 col-sm-4 col-xs-6 card-wrapper">
           <div class="card">
             <img src="https://unsplash.it/200/100" alt="Golgappa">
             <div class="card-description-container">
@@ -232,7 +189,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+
+        <div class="clearfix visible-sm-block"></div>
+
+        <div class="col-md-3 col-sm-4 col-xs-6 card-wrapper">
           <div class="card">
             <img src="https://unsplash.it/200/100" alt="Golgappa">
             <div class="card-description-container">
@@ -242,32 +202,74 @@
             </div>
           </div>
         </div>
+
+        <div class="clearfix visible-xs-block"></div>
+
+        <div class="col-md-3 col-sm-4 col-xs-6 card-wrapper">
+          <div class="card">
+            <img src="https://unsplash.it/200/100" alt="Aaloo Chaat">
+            <div class="card-description-container">
+              <h3>Paani puri</h3>
+              <p>Author</p>
+              <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-xs-6 card-wrapper">
+          <div class="card">
+            <img src="https://unsplash.it/200/100" alt="Paani puri">
+            <div class="card-description-container">
+              <h3>Paani puri</h3>
+              <p>Author</p>
+              <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        
+        <div class="clearfix visible-sm-block"></div>
+        <div class="clearfix visible-xs-block"></div>
+
+        <div class="col-md-3 col-sm-4 col-xs-6 card-wrapper">
+          <div class="card">
+            <img src="https://unsplash.it/200/100" alt="Golgappa">
+            <div class="card-description-container">
+              <h3>Paani puri</h3>
+              <p>Author</p>
+              <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-xs-6 card-wrapper">
+          <div class="card">
+            <img src="https://unsplash.it/200/100" alt="Golgappa">
+            <div class="card-description-container">
+              <h3>Paani puri</h3>
+              <p>Author</p>
+              <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div><!-- End popular section -->
 
-    <!-- Newsletter -->
+<!-- Newsletter -->
     <div class="container-fluid newsletter">
       <div class="newsletter-main">
         <h2>Get Our Newsletter</h2>
         <h5>We promise no spamming !</h5>
-        <form class="form-inline pull-left" action="index.html" method="post">
+        <form class="form-inline" action="index.html" method="post">
           <div class="form-group">
             <input type="email" name="email" placeholder="Your Email" class="form-control">
             <button type="submit" name="submit-mail" class="btn btn-primary">Sign Up</button>
           </div>
         </form>
-        <div class="newsletter-links pull-right">
-          <div class="row">
-            <div class="col-md-4">
+        <div class="newsletter-links">
               <a href="#"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
-            </div>
-            <div class="col-md-4">
               <a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-            </div>
-            <div class="col-md-4">
               <a href="#"><i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i></a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -282,7 +284,7 @@
     </footer>
 
 
-    <!-- Scripts -->
+<!-- Scripts -->
     <script type="text/javascript" src="vendor/js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/home-js.js"></script>
