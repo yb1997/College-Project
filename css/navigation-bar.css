@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 nav {
-  position: relative;
+  position: absolute;
   font-family: 'Roboto',sans-serif;
   font-size: 110%;
   /*box-shadow: 0px 2px 15px #2B2B2B;*/
-  top: -60px;
+  top: 0px;
 }
 nav ul {
   list-style: none;
@@ -101,6 +101,7 @@ nav header i {
   transform: translate(-100%,0%);
   transition: transform 0.4s;
   z-index: 100;/* this is required so that it stays above navbar wrapper*/
+  overflow-y: auto;
 }
 #side-navbar i {
   position: relative;
