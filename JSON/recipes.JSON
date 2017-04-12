@@ -1,0 +1,42 @@
+[
+	{
+		"name":"Paani Puri",
+		"author":"John Doe",
+		"image_loc":"img/recipes/paaniPuri-small.jpg"
+	},
+	{
+		"name":"Jalebi",
+		"author":"Jane Doe",
+		"image_loc":"img/recipes/"
+	},
+	{
+		"name":"Ras Malaai",
+		"author":"Clark Kent",
+		"image_loc":"img/recipes/"
+	},
+	{
+		"name":"Gajrela",
+		"author":"Bruce Wayne",
+		"image_loc":"img/recipes/"
+	},
+	{
+		"name":"Matar Paneer",
+		"author":"Logan",
+		"image_loc":"img/recipes/"
+	},
+	{
+		"name":"Samosa",
+		"author":"Tony Stark",
+		"image_loc":"img/recipes/"
+	},
+	{
+		"name":"Gulab Jamun",
+		"author":"Peter Parker",
+		"image_loc":"img/recipes/"
+	},
+	{
+		"name":"Tomato Soup",
+		"author":"Carl Johnson",
+		"image_loc":"img/recipes/"
+	}
+]

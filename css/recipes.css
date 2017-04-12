@@ -1,67 +1,135 @@
 html {
-	padding-top: 0px;
+  padding-top: 0px;
 }
-
+/********************* Editor's choice **********************/
 .ed-choice-sec {
-	position: relative;
-	height: 100vh;
-	width: 100%;
-	padding: 0;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
 }
 .ed-choice-sec .img-container {
-	height: 100%;
-	width: 100%;
-	filter: blur(4px); grayscale(30%);
-	z-index: 1;
-	background-image: url('../img/recipes/rabdi-big.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  height: 100%;
+  width: 100%;
+  filter: blur(4px); grayscale(30%);
+  z-index: 1;
+  background-image: url('../img/recipes/rabdi-big.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .ed-choice-sec .desc-box {
-	display: flex;
-	flex-direction: column;
-	width: 50%;
-	height: 50%;
-	color: #fff;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
-	z-index: 2;
-	box-shadow: 0 2px 10px black;
-	padding: 1rem 0.5rem;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  z-index: 2;
+  box-shadow: 0 2px 10px black;
+  padding: 1rem 0.5rem;
 }
 .ed-choice-sec .desc-box .heading-section {
-	position: relative;
-	flex: 2;
+  position: relative;
+  flex: 2;
 }
 .heading-content-wrapper {
-	display: inline-block;
+  display: inline-block;
 }
-.ed-choice-sec h1 {
-	display: inline-block;
-	margin: 0;
-	text-align: center;
-	font-family: 'Fascinate Inline',serif;
-	font-weight: bold;
-	font-size: 6rem;
+.heading-section h1 {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  font-family: 'Fascinate Inline',serif;
+  font-weight: bold;
+  font-size: 7rem;
+  text-transform: uppercase;
 }
-.ed-choice-sec h5 {
-	display: block;
-	position: relative;
-	text-align: right;
-	margin: 0;
-	color: #3592FB;
-	font-weight: lighter;
+.heading-section h5 {
+  display: block;
+  position: relative;
+  text-align: right;
+  margin: 0;
+  color: #E6E6E6;
+  font-size: 2rem;
 }
 .ed-choice-sec .desc-section {
-	flex: 1;
-	font-size: 100%;
-	margin: 0;
+  flex: 1;
+  margin: 0;
+}
+.desc-section p {
+  font-size: 2rem;
 }
 .ed-choice-sec .btn-section {
-	flex: 1;
+  flex: 1;
+}
+
+/******************* Recipes section *******************/
+.card-container {
+  padding: 0;
+}
+.card-container > .row {
+  margin: 0;
+}
+.card-container .card-wrapper {
+  padding: 0 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+  margin: auto;
+  margin-bottom: 25px;
+  width: 200px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  height: 240px;
+}
+.card:hover {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.card .img-wrapper {
+  flex: 1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card .img {
+  height: 100%;
+  width: 100%;
+}
+.card .card-desc {
+  flex: 1;
+  padding: 5px;
+}
+.card .recipe-name {
+  font-weight: bold;
+  margin-top: 0px;
+}
+.card i {
+  color: #EDDEB2;
+  margin-right: 5px;
+}
+.card i:hover {
+  color: #EDC64F;
+}
+
+/****************** responsive styles ******************/
+@media screen and (max-width: 768px) {
+  .desc-section p {
+    font-size: 1.6rem;
+  }
+  .heading-section h1 {
+    font-size: 6rem;
+  }
+  .heading-section h5 {
+    font-size: 1.5rem;
+  }
 }
