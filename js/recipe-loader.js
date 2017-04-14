@@ -1,6 +1,7 @@
 "use strict";
 
-// var link = "https://yb1997.github.io/College-Project/JSON/recipes.JSON";
+// var link = "http://127.0.0.1:3000/JSON/recipes.JSON";// Change it later
+var link = "https://yb1997.github.io/College-Project/JSON/recipes.JSON";
 
 function cardResizer (card,height,width,unit) {
   card.css({"height": height+unit, "width": width+unit});
@@ -14,7 +15,7 @@ function cardLoader(url) {
       let cardWrapper = $("<div class='col-md-3 col-sm-4 col-xs-6 card-wrapper'></div>");
       let card = $("<div class='card'></h1>");// handle click properly
       let imageWrapper = $("<div class='img-wrapper'></div>");
-      let image = $("<img src='https://unsplash.it/400/200' alt=" + recipe.name + " height='100%' width='100%'>");
+      let image = $("<img alt=" + recipe.name + " height='100%' width='100%'>");
       let cardDesc = $("<div class='card-desc'></div>");
       let recipeName = $("<a href='#' class='recipe-name text-capitalize'></a>");
       let author = $("<p class='author-name'>By </p>");
@@ -22,6 +23,9 @@ function cardLoader(url) {
       let clearfixXS = $("<div class='clearfix visible-xs-block'></div>");
       let clearfixSM = $("<div class='clearfix visible-sm-block'></div>");
 
+      recipe.name = recipe.name || "Recipe_Name";
+      recipe.author = recipe.author || "Author";
+      image.attr("src",recipe.image_loc || "img/recipe-placeholder.jpg");
       if (recipe.name.length > 26) {
         recipe.name = recipe.name.slice(0,23) + "...";
       }

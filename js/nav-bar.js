@@ -21,14 +21,11 @@ navMenuIcon[0].onclick = function() {
 
 
 
-// Handle clicks on li element inside navigation sidebar 
+// Handle clicks on li element inside navigation sidebar
 for(let i = 0;i<sidebarLinks.length;i++) {
-  sidebarLinks[i].onclick = function() {
+  sidebarLinks[i].addEventListener("click",function() {
     // sideBar.style.transform = "translate(-100%,0%)"; // .style is returning empty string so use getComputedStyle method
     sideBar.classList.remove('show-side-navbar');
     backgroundFader.classList.remove('fade-background');
-  };
+  },false);
 }
-
-
-

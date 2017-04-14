@@ -2,61 +2,61 @@
 	{
 		"name":"Paani Puri",
 		"author":"John Doe",
-		"image_loc":"img/recipes/paaniPuri-small.jpg"
+		"image_loc":"img/recipes/pani-puri-md.jpg"
 	},
 	{
 		"name":"Jalebi",
 		"author":"Jane Doe",
-		"image_loc":"img/recipes/"
+		"image_loc":"img/recipes/jalebi-md.jpg"
 	},
 	{
 		"name":"Ras Malaai",
 		"author":"Clark Kent",
-		"image_loc":"img/recipes/"
+		"image_loc":"img/recipes/rasmalai-md.jpg"
 	},
 	{
 		"name":"Gajrela",
 		"author":"Bruce Wayne",
-		"image_loc":"img/recipes/"
+		"image_loc":""
 	},
 	{
 		"name":"Matar Paneer",
 		"author":"Logan",
-		"image_loc":"img/recipes/"
+		"image_loc":""
 	},
 	{
 		"name":"Samosa",
 		"author":"Tony Stark",
-		"image_loc":"img/recipes/"
+		"image_loc":"img/recipes/samosa-md.jpg"
 	},
 	{
 		"name":"Gulab Jamun",
 		"author":"Peter Parker",
-		"image_loc":"img/recipes/"
+		"image_loc":"img/recipes/gulab-jamun-md.jpg"
 	},
 	{
 		"name":"Tomato Soup",
 		"author":"Carl Johnson",
-		"image_loc":"img/recipes/"
+		"image_loc":""
 	},
 	{
-		"name":"Pasta",
-		"author":"Roman Reigns",
-		"image_loc":"img/recipes/"
+		"name":"Pasta with fresh tomato sause and ricotta",
+		"author":"David Tanis",
+		"image_loc":"img/recipes/pasta-with-fresh-tomato-sauce-and-ricotta-md.jpg"
 	},
 	{
 		"name":"Tomato, Kale and Mozzarella Sandwich With Parsley Pesto",
 		"author":"Chetan Joshi",
-		"image_loc":"img/recipes/"
+		"image_loc":""
 	},
 	{
 		"name":"The Ultimate Veggie Burger",
 		"author":"Sanjeev Kapoor",
-		"image_loc":"img/recipes/"
+		"image_loc":""
 	},
 	{
 		"name":"Apple Crumble",
 		"author":"John Cena",
-		"image_loc":"img/recipes/"
+		"image_loc":""
 	}
 ]
