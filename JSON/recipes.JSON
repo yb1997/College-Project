@@ -38,5 +38,25 @@
 		"name":"Tomato Soup",
 		"author":"Carl Johnson",
 		"image_loc":"img/recipes/"
+	},
+	{
+		"name":"Pasta",
+		"author":"Roman Reigns",
+		"image_loc":"img/recipes/"
+	},
+	{
+		"name":"Tomato, Kale and Mozzarella Sandwich With Parsley Pesto",
+		"author":"Chetan Joshi",
+		"image_loc":"img/recipes/"
+	},
+	{
+		"name":"The Ultimate Veggie Burger",
+		"author":"Sanjeev Kapoor",
+		"image_loc":"img/recipes/"
+	},
+	{
+		"name":"Apple Crumble",
+		"author":"John Cena",
+		"image_loc":"img/recipes/"
 	}
 ]
