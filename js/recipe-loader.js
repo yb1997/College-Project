@@ -1,14 +1,14 @@
 "use strict";
 
 // var link = "http://127.0.0.1:3000/JSON/recipes.JSON";// Change it later
-var link = "https://yb1997.github.io/College-Project/JSON/recipes.JSON";
+var link = "http://127.0.0.1:8080/College-Project/JSON/recipes.JSON";
 
 function cardResizer (card,height,width,unit) {
   card.css({"height": height+unit, "width": width+unit});
 }
 
 function cardLoader(url) {
-  $.getJSON(url, function (recipes) {
+  $.getJSON(url, recipes => {
     let j = 1;
     for (let i = 0; i < recipes.length; i++,j++) {
       let recipe = recipes[i];
