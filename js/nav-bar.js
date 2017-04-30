@@ -29,3 +29,9 @@ for(let i = 0;i<sidebarLinks.length;i++) {
     backgroundFader.classList.remove('fade-background');
   },false);
 }
+
+// Hide sidebar on click on area outside of side navbar
+backgroundFader.onclick = function() {
+  sideBar.classList.remove('show-side-navbar');
+  backgroundFader.classList.remove('fade-background');
+}
