@@ -1,170 +1,170 @@
-/********************Navigation Bar *******************/
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-nav {
-  position: absolute;
-  font-family: 'Roboto',sans-serif;
-  font-size: 110%;
-  /*box-shadow: 0px 2px 15px #2B2B2B;*/
-  top: 0px;
-  width: 100%;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.nav-toggle {
-  cursor: pointer;
-  transition: color 0.2s;
-}
-.nav-toggle:hover {
-  color: #777;
-}
-nav header {
-  position: fixed;/* make it relative to make navbar if you don't want header seen always on top */
-  background-color: #333;
-  color: #fff;
-  height: 60px;
-  padding: 0 2rem;
-  z-index: 95;
-  width: 100%;
-}
-nav header i {
-  line-height: 60px!important;
-}
-#nav-brand {
-  margin-left: 1rem;
-  font-weight: bold;
-  line-height: 60px;
-  font-size: 30px;
-}
-.nav-menu {
-  position: absolute;
-  top: 10px;
-  right: 5%;
-  background-color: #444;
-  border-radius: 30%;
-  transform: translate(10%,0%);
-  transition: all 0.4s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 9;
-}
-.nav-menu-icon {
-  position: absolute;
-  top: 0;
-  right: 5%;
-  cursor: pointer;
-  padding: 0 10px;
-  color: white;
-  transition: color 0.2s;
-}
-.nav-menu-icon:hover {
-  color: #777;
-}
-.nav-menu ul {
-  padding: 5px 0;
-  text-align: left;
-  min-width: 150px;
-}
-.nav-menu li {
-  padding: 0.7em 1em;
-  cursor: pointer;
-  font-weight: normal;
-}
-.nav-menu li:hover {
-  background-color: #333;
-  transition: background-color 0.4s;
-}
-/* Note: always keep z-index of desired element higher than background-fader class*/
-.background-fader {
-    visibility: hidden;
-    width: 100%;
-    position: fixed;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.5);
-    top: 0;
-    z-index: 96;
-    opacity: 0;
-    transition: opacity 400ms;
-}
-
-#side-navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: rgba(0,0,0,0.9)/*#444*/;
-  color: white;
-  padding-bottom: 1rem;
-  height: 100%;
-  width: 30%;
-  transform: translate(-105%,0%); /*not using 100% because options were clickable if user hovered to the very left side of window*/
-  transition: transform 0.4s;
-  z-index: 100;/* this is required so that it stays above navbar wrapper*/
-  overflow-y: auto;
-}
-#side-navbar i {
-  position: relative;
-  left: 80%;
-  cursor: pointer;
-  top: 10px;
-}
-#side-navbar ul {
-  margin-top: 1.5rem;
-}
-#side-navbar li {
-  font-weight: normal;
-  font-size: 3.5rem;
-  line-height: 3.5rem;
-  /*text-align: center;*/
-  transition: font-size 400ms;
-  padding-left: 2rem;
-}
-#side-navbar li:hover {
-  background-color: #333;
-  cursor: pointer;
-}
-#side-navbar li a {
-  color: inherit;
-  text-decoration: none;
-  display: block;
-  padding: 1.5rem 0;
-  border-bottom: 1px solid white;
-}
-
-
-
-.fade-background {
-  visibility: visible;
-  opacity: 1;
-}
-.show-side-navbar {
-  transform: translate(0%,0%)!important;
-}
-.show-nav-menu {
-  transform: translate(0%,50%)!important;
-  opacity: 1!important;
-  visibility: visible!important;
-  border-radius: 0;
-}
-
-@media only screen and (max-width: 1024px) {
-  #nav-brand {
-    font-size: 26px;
-  }
-  #side-navbar li {
-    font-size: 2.9rem;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #nav-brand {
-    font-size: 26px;
-  }
-  #side-navbar {
-    width: 60%;
-  }
-  #side-navbar li {
-    font-size: 2.5rem;
-  }
-}
+/********************Navigation Bar *******************/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+nav {
+  position: absolute;
+  font-family: 'Roboto',sans-serif;
+  font-size: 110%;
+  /*box-shadow: 0px 2px 15px #2B2B2B;*/
+  top: 0px;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-toggle {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.nav-toggle:hover {
+  color: #777;
+}
+nav header {
+  position: fixed;/* make it relative to make navbar if you don't want header seen always on top */
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+  padding: 0 2rem;
+  z-index: 95;
+  width: 100%;
+}
+nav header i {
+  line-height: 60px!important;
+}
+#nav-brand {
+  margin-left: 1rem;
+  font-weight: bold;
+  line-height: 60px;
+  font-size: 30px;
+}
+.nav-menu {
+  position: absolute;
+  top: 10px;
+  right: 5%;
+  background-color: #444;
+  border-radius: 30%;
+  transform: translate(10%,0%);
+  transition: all 0.4s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9;
+}
+.nav-menu-icon {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  cursor: pointer;
+  padding: 0 10px;
+  color: white;
+  transition: color 0.2s;
+}
+.nav-menu-icon:hover {
+  color: #777;
+}
+.nav-menu ul {
+  padding: 5px 0;
+  text-align: left;
+  min-width: 150px;
+}
+.nav-menu li {
+  padding: 0.7em 1em;
+  cursor: pointer;
+  font-weight: normal;
+}
+.nav-menu li:hover {
+  background-color: #333;
+  transition: background-color 0.4s;
+}
+/* Note: always keep z-index of desired element higher than background-fader class*/
+.background-fader {
+    visibility: hidden;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    z-index: 96;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+#side-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.9)/*#444*/;
+  color: white;
+  padding-bottom: 1rem;
+  height: 100%;
+  width: 30%;
+  transform: translate(-105%,0%); /*not using 100% because options were clickable if user hovered to the very left side of window*/
+  transition: transform 0.4s;
+  z-index: 100;/* this is required so that it stays above navbar wrapper*/
+  overflow-y: auto;
+}
+#side-navbar i {
+  position: relative;
+  left: 80%;
+  cursor: pointer;
+  top: 10px;
+}
+#side-navbar ul {
+  margin-top: 1.5rem;
+}
+#side-navbar li {
+  font-weight: normal;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  /*text-align: center;*/
+  transition: font-size 400ms;
+  padding-left: 2rem;
+}
+#side-navbar li:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+#side-navbar li a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid white;
+}
+
+
+
+.fade-background {
+  visibility: visible;
+  opacity: 1;
+}
+.show-side-navbar {
+  transform: translate(0%,0%)!important;
+}
+.show-nav-menu {
+  transform: translate(0%,50%)!important;
+  opacity: 1!important;
+  visibility: visible!important;
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  #nav-brand {
+    font-size: 26px;
+  }
+  #side-navbar li {
+    font-size: 2.9rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #nav-brand {
+    font-size: 26px;
+  }
+  #side-navbar {
+    width: 60%;
+  }
+  #side-navbar li {
+    font-size: 2.5rem;
+  }
+}
