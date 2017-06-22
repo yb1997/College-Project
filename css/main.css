@@ -1,105 +1,105 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
-@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-
-html {
-	position: relative;
-	min-height: 100%;
-	padding-top: 60px;
-	width: 100%;
-}
-body {
-	font-family: 'Open Sans',Arial,Helvetica,sans-serif;
-	margin: 0;
-	margin-bottom: 80px;
-	background-color: #dddddd;
-	width: 100%;
-	/*margin-top: 60px;*/
-}
-
-.bg-white {
-	background-color: white;
-}
-.text-white {
-	color: white;
-}
-/********************* Header ***********************/
-/*header {
-	background-color: #333;
-}
-header h1 {
-	font-family: 'Baloo Bhaina',Arial, Helvetica, sans-serif;
-	color: #fff;
-	font-size: 400%;
-	margin: 50px 0 0 0;
-}
-hr {
-	border-color: #fff;
-	margin: 0;
-	margin-bottom: 10px;
-}*/
-
-/******************Navigation bar **************************/
-/*.navbar {
-	border-radius: 0;
-	border: none;
-	margin-bottom: 0;
-	font-weight: bold;
-	font-size: 1.5rem;
-	background-color: #fff;
-}
-.navbar-nav {
-	float: none;
-}
-
-.navbar .navbar-collapse,.collapse {
-    text-align: center;
-}
-.navbar a:hover {
-	height: 50px;
-	border-bottom: 3px solid orange;
-}
-.navbar-right {
-	display: inline-block;
-}*/
-
-
-/********************* Newsletter **************************/
-.newsletter {
-	padding: 10px;
-	background-color: #444;
-	/*background-image: url('https://unsplash.it/g/1920/300?random');*/
-	color: #fff;
-}
-.newsletter h2 {
-	font-weight: bold;
-	font-family: 'Fascinate Inline','Pathway Gothic One',Arial;
-}
-.newsletter-main {
-	max-width: 500px;
-	margin: auto;
-}
-.newsletter-links {
-	max-width: 400px;
-}
-.newsletter-links i {
-	color: #fff;
-}
-
-
-/******************* Footer ********************/
-footer {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background-color: #333;
-	color: white;
-	height: 80px;
-}
-footer p {
-	line-height: 70px;
-	font-size: 150%;
-	text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+html {
+	position: relative;
+	min-height: 100%;
+	padding-top: 60px;
+	width: 100%;
+}
+body {
+	font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+	margin: 0;
+	margin-bottom: 80px;
+	background-color: #dddddd;
+	width: 100%;
+	/*margin-top: 60px;*/
+}
+
+.bg-white {
+	background-color: white;
+}
+.text-white {
+	color: white;
+}
+/********************* Header ***********************/
+/*header {
+	background-color: #333;
+}
+header h1 {
+	font-family: 'Baloo Bhaina',Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 400%;
+	margin: 50px 0 0 0;
+}
+hr {
+	border-color: #fff;
+	margin: 0;
+	margin-bottom: 10px;
+}*/
+
+/******************Navigation bar **************************/
+/*.navbar {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 1.5rem;
+	background-color: #fff;
+}
+.navbar-nav {
+	float: none;
+}
+
+.navbar .navbar-collapse,.collapse {
+    text-align: center;
+}
+.navbar a:hover {
+	height: 50px;
+	border-bottom: 3px solid orange;
+}
+.navbar-right {
+	display: inline-block;
+}*/
+
+
+/********************* Newsletter **************************/
+.newsletter {
+	padding: 10px;
+	background-color: #444;
+	/*background-image: url('https://unsplash.it/g/1920/300?random');*/
+	color: #fff;
+}
+.newsletter h2 {
+	font-weight: bold;
+	font-family: 'Fascinate Inline','Pathway Gothic One',Arial;
+}
+.newsletter-main {
+	max-width: 500px;
+	margin: auto;
+}
+.newsletter-links {
+	max-width: 400px;
+}
+.newsletter-links i {
+	color: #fff;
+}
+
+
+/******************* Footer ********************/
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #333;
+	color: white;
+	height: 80px;
+}
+footer p {
+	line-height: 70px;
+	font-size: 150%;
+	text-align: center;
+}
