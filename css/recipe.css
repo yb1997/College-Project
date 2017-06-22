@@ -1,76 +1,76 @@
-ul {
-	list-style-type: none;
-}
-
-.container h1,h2,h3,h4 {
-	font-weight: bold;
-}
-
-.recipe-name {
-  text-transform: capitalize;
-  font-size: 4rem;
-  font-family: 'Lobster';
-}
-
-#recipe-author {
-	font-weight: bold;
-	text-transform: capitalize;
-}
-
-.rec-overview {
-	padding: 15px 0;
-	border-radius: 4px;
-	background-color: rgba(220,20,60,0.8);
-}
-
-.rec-overview img {
-	border-radius: 4px;
-}
-
-.rec-summary-wrap {
-	height: 100%;
-}
-
-.rec-summary {
-	font-weight: bold;
-	font-size: 1.1em;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-.rec-instructions {
-	padding: 0;
-}
-.rec-instructions h4 {
-	color: black;
-}
-
-.ingre-sec {
-	background-color: rgba(0,0,0,0.2);
-	padding: 15px;
-}
-
-.rec-steps-sec {
-	padding: 15px;
-}
-
-.ingre-list > li {
-	font-weight: bold;
-	font-size: 1.4rem;
-	margin-bottom: 1rem;
-}
-
-.recipe-steps > li {
-	font-weight: bold;
-	font-size: 1.6rem;
-}
-
-.recipe-steps p {
-	color: #000;
-	font-weight: bold;
-	font-size: 1.7rem;
-	margin: 0;
-	padding: 0;
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+ul {
+	list-style-type: none;
+}
+
+.container h1,h2,h3,h4 {
+	font-weight: bold;
+}
+
+.recipe-name {
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-family: 'Lobster';
+}
+
+#recipe-author {
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.rec-overview {
+	padding: 15px 0;
+	border-radius: 4px;
+	background-color: rgba(220,20,60,0.8);
+}
+
+.rec-overview img {
+	border-radius: 4px;
+}
+
+.rec-summary-wrap {
+	height: 100%;
+}
+
+.rec-summary {
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.rec-instructions {
+	padding: 0;
+}
+.rec-instructions h4 {
+	color: black;
+}
+
+.ingre-sec {
+	background-color: rgba(0,0,0,0.2);
+	padding: 15px;
+}
+
+.rec-steps-sec {
+	padding: 15px;
+}
+
+.ingre-list > li {
+	font-weight: bold;
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
+}
+
+.recipe-steps > li {
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+
+.recipe-steps p {
+	color: #000;
+	font-weight: bold;
+	font-size: 1.7rem;
+	margin: 0;
+	padding: 0;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
